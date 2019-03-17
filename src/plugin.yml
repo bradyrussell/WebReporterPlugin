@@ -1,0 +1,25 @@
+name: WebReporter
+version: 1.2.1
+author: Brady Russell
+main: com.bradyrussell.webreporter.WebReporterPlugin
+api-version: 1.13
+permissions:
+  webreporter.manager:
+    description: Can manage reports
+    default: false
+commands:
+  report:
+    description: Create a report for a player.
+    usage: /report <player>
+    aliases:
+      rep
+  reports:
+    description: List open reports.
+    usage: /reports
+    aliases:
+      reps
+  tpreport:
+    description: Teleport to a report location.
+    usage: /tprp <reporter/reported/back>
+    aliases:
+      tprp

@@ -1,0 +1,6 @@
+database_host: 'localhost'
+database_name: 'webreporter'
+database_username: 'user'
+database_password: 'pass'
+# this should be formatted like https://yoursite.tld/report.php?id= so the report key can be appended to the end
+reports_link: 'https://yoursite.tld/report.php?id='
